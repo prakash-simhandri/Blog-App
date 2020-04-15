@@ -4,13 +4,6 @@ The Blog apphttps://github.com/prakash-simhandri/Blog-App
 # MDB React
 In this project i used bootstrap through react this is a basic blog app  where users can upload his text blog.
 
-
-# Node Packages
-
-
-# React packages
-
-
 # mongo DB
 in this project i used mongo database beacause its a non-sql database so its help users to upload any types of data and i use this because if any one wants to add feature in this then it will be easy for them.
 
