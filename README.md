@@ -1,5 +1,5 @@
 # Blog-App
-The Blog apphttps://github.com/prakash-simhandri/Blog-App
+The Blog app https://github.com/prakash-simhandri/Blog-App
 
 # MDB React
 In this project i used bootstrap through react this is a basic blog app  where users can upload his text blog.
