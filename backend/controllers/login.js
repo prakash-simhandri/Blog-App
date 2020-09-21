@@ -21,7 +21,7 @@ module.exports = (sigIn, DB_model, jwt) => {
                 if (email_items.includes(email) && password_items.includes(password)) {
                     DB_model.findOne({email:email}).select(['-password','-createdAt','-updatedAt','-__v'])
                         .then(Response => {
-                            jwt.sign({Response}, process.env.SECRETKEY,{ expiresIn:'2 days' }, (err,token)=>{
+                            jwt.sign({Response}, process.env.SECRETKEY,{ expiresIn:'10h' }, (err,token)=>{
                                 if (!err) {
                                     res.send(token) 
                                 }else{
