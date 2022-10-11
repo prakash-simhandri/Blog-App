@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import Section from './Leyouts/Blog_sections';
 import MY_blog from './Leyouts/My_blog';
 import Add_blogs from './Leyouts/Add_blog';
-import Bolg_logo from '../Components/Leyouts/blog.jpg';
+import Bolg_logo from './Leyouts/blog.jpg';
 import Edit_blog from "./Leyouts/Blog_edit"
 
 import {
@@ -79,7 +79,7 @@ export class Home extends Component {
                             <MDBNavbarNav right>
                                 <MDBNavItem>
                                     {/* <img className="user_profile" src={profile_logo} alt="website logo" /> */}
-                                    <img className="user_profile" src="https://pbs.twimg.com/media/EPcIBqRVUAElnuC.jpg" alt="website logo" />
+                                    <img className="user_profile" src="https://s3-ap-southeast-1.amazonaws.com/assets.paytm.com/images/cinema/3-0eee039b-f338-4b7a-8ac2-2257442136c9.jpg" alt="website logo" />
 
                                 </MDBNavItem>
                                 <MDBNavItem>

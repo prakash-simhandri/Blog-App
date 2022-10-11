@@ -83,7 +83,7 @@ export class Login extends Component {
         email: this.state.email,
         password: this.state.password
       }
-      // console.log(user_Info);
+      console.log(user_Info);
       axios.post('http://localhost:2016/blog/signin', user_Info)
         .then((Response) => {
           if ('Email is not carect..!' === Response.data) {

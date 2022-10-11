@@ -13,7 +13,7 @@ const Blog = props => (
                         src={Blog_IMG}
                         alt=""
                     />
-                    <a href="#!">
+                    <a href="">
                         <MDBMask overlay="white-slight" />
                     </a>
                 </MDBView>
@@ -29,7 +29,7 @@ const Blog = props => (
                 </p>
                 <br />
                 <p>
-                    by <a href="#!" className="font-weight-bold">{props.blogs.username}</a>, {props.blogs.date}
+                    by <a className="font-weight-bold">{props.blogs.username}</a>, {props.blogs.date}
                 </p>
                 <MDBCardBody>
                     <MDBBtn color="primary" size="md">

@@ -72,7 +72,7 @@ export class Navbar extends Component {
 
                         </MDBNavItem>
                         <MDBNavItem>
-                            <MDBNavLink onClick={this.logout} className="waves-effect waves-light" to="!#">
+                            <MDBNavLink onClick={this.logout} className="waves-effect waves-light" to="">
                                 <MDBIcon icon="sign-out-alt" size="2x" />
                             </MDBNavLink>
 

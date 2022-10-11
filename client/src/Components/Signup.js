@@ -87,7 +87,7 @@ export class Signup extends Component {
         useremail: this.state.email,
         password: this.state.password
       }
-      // console.log(user_data);
+      console.log(user_data);
       axios.post('http://localhost:2016/blog/signup', user_data)
         .then((result) => {
           console.log(result);
@@ -222,4 +222,4 @@ export class Signup extends Component {
   }
 }
 
-export default Signup
+export default Signup;

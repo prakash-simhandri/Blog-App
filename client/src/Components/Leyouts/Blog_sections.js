@@ -18,7 +18,7 @@ const Blog = props => (
             src={Blog_IMG}
             alt=""
           />
-          <a href="#!">
+          <a href="">
             <MDBMask overlay="white-slight" className="waves-light" />
           </a>
         </MDBView>
@@ -31,18 +31,17 @@ const Blog = props => (
         </div>
         <div className="d-flex justify-content-between">
           <MDBCol size="11" className="text-truncate pl-0 mb-3">
-            <a href="#!" className="dark-grey-text">
+            <p className="dark-grey-text">
               {props.blogs.description}
-            </a>
+            </p>
           </MDBCol>
 
-          <a href="#!">
-
+          <a href="">
             <MDBIcon icon="angle-double-right" />
           </a>
         </div>
         <p>
-          by <a href="#!" className="font-weight-bold">{props.blogs.username}</a>
+          by <a href="" className="font-weight-bold">{props.blogs.username}</a>
           <p className="float-xl-right font-weight-bold dark-grey-text">
             {props.blogs.date}
           </p>
@@ -66,7 +65,7 @@ const SBlog = props => (
             src={Blog_IMG}
             alt=""
           />
-          <a href="#!">
+          <a href="">
             <MDBMask overlay="white-slight" className="waves-light" />
           </a>
         </MDBView>
@@ -77,16 +76,16 @@ const SBlog = props => (
         </p>
         <div className="d-flex justify-content-between">
           <MDBCol size="11" className="text-truncate pl-0 mb-3">
-            <a href="#!" className="dark-grey-text">
+            <p className="dark-grey-text">
               {props.blogs.description}
-            </a>
+            </p>
           </MDBCol>
-          <a href="#!">
+          <a href="">
             <MDBIcon icon="angle-double-right" />
           </a>
         </div>
         <p>
-          by <a href="#!" className="font-weight-bold">{props.blogs.username}</a>
+          by <a href="" className="font-weight-bold">{props.blogs.username}</a>
           <p className="float-xl-right font-weight-bold dark-grey-text">
             {props.blogs.date}
           </p>
@@ -163,12 +162,12 @@ export class Blog_sections extends Component {
                       src="https://miro.medium.com/max/2000/1*F53Bz-dg4x5l4TgkKb-oyQ.jpeg"
                       alt=""
                     />
-                    <a href="#!">
+                    <a href="">
                       <MDBMask overlay="white-slight" className="waves-light" />
                     </a>
                   </MDBView>
                   <div className="d-flex justify-content-between">
-                    <a href="#!" className="light-blue-text">
+                    <a href="" className="light-blue-text">
                       <h6 className="font-weight-bold">
                         <MDBIcon icon="plane" className="pr-2" />
                               Travels
@@ -180,7 +179,7 @@ export class Blog_sections extends Component {
                           </p>
                   </div>
                   <h3 className="font-weight-bold dark-grey-text mb-3 p-0">
-                    <a href="#!">It’s time to get a PhD in Coronavirus</a>
+                    <a href="">It’s time to get a PhD in Coronavirus</a>
                   </h3>
                   <p className="dark-grey-text">
                     Depending on where you live, you've probably been suffering from Corona-related
@@ -202,7 +201,7 @@ export class Blog_sections extends Component {
                           src="https://miro.medium.com/max/1400/0*0Ann4QreIzvUHReT"
                           alt=""
                         />
-                        <a href="#!">
+                        <a href="">
                           <MDBMask overlay="white-slight" className="waves-light" />
                         </a>
                       </MDBView>
@@ -213,18 +212,18 @@ export class Blog_sections extends Component {
                             </p>
                       <div className="d-flex justify-content-between">
                         <MDBCol size="11" className="text-truncate pl-0 mb-3">
-                          <a href="#!" className="dark-grey-text">
+                          <a href="" className="dark-grey-text">
                             To store confidential session data, we can use the express-session package. It stores the session data on the server and gives the client a session ID to access the session data.
                             In this article, we’ll look at how to use it to store temporary user data.
 
                                 </a>
                         </MDBCol>
-                        <a href="#!">
+                        <a href="">
                           <MDBIcon icon="angle-double-right" />
                         </a>
                       </div>
                       <p>
-                        by <a href="#!" className="font-weight-bold">Prakash Simhandri</a>
+                        by <a href="" className="font-weight-bold">Prakash Simhandri</a>
                         <p className="float-xl-right font-weight-bold dark-grey-text">
                           17/08/2018
                             </p>
@@ -248,12 +247,12 @@ export class Blog_sections extends Component {
                       src="https://miro.medium.com/max/4800/0*uGLtQTsfVnWqGDYa"
                       alt=""
                     />
-                    <a href="#!">
+                    <a href="">
                       <MDBMask overlay="white-slight" className="waves-light" />
                     </a>
                   </MDBView>
                   <div className="d-flex justify-content-between">
-                    <a href="#!" className="pink-text">
+                    <a href="" className="pink-text">
                       <h6 className="font-weight-bold">
                         <MDBIcon icon="home" className="pr-2" />
                               Lifestyle
@@ -265,7 +264,7 @@ export class Blog_sections extends Component {
                           </p>
                   </div>
                   <h3 className="font-weight-bold dark-grey-text mb-3 p-0">
-                    <a href="#!">JSON — The Python Way</a>
+                    <a href="">JSON — The Python Way</a>
                   </h3>
                   <p className="dark-grey-text">
                     JavaScript Object Notation (JSON) is a lightweight data-interchange format based on the
